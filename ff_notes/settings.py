@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-e=yl$o#f2%hd15&h3k7*w$5#qy+_9_#e2)--m)2$+a^**#8@bh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['f-notes-django-1.onrender.com','localhost']
 #'ff_notes.onrender.com','localhost'
 
 
@@ -91,7 +91,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse('postgresql://notesapp_postgress_user:t1eVQMSmzHzyXxvQpbS3iQ2adI1pIhvL@dpg-crnv9ng8fa8c738lar3g-a.singapore-postgres.render.com/notesapp_postgress')
+DATABASES['default'] = dj_database_url.parse('postgresql://notesapp_postgress_user:t1eVQMSmzHzyXxvQpbS3iQ2adI1pIhvL@dpg-crnv9ng8fa8c738lar3g-a/notesapp_postgress')
 
 
 # Password validation
