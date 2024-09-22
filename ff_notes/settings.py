@@ -78,6 +78,7 @@ WSGI_APPLICATION = 'ff_notes.wsgi.application'
 CORS_ALLOWED_ORIGINS = [
 "http://localhost:3000",
 "https://localhost:3000",
+"https://mhdfaaiz.github.io/notesapp-react"
 ]
 
 
